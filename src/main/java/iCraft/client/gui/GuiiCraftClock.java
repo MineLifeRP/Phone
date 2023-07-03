@@ -90,7 +90,7 @@ public class GuiiCraftClock extends GuiiCraftBase
         GL11.glScalef(1.0F, 1.0F, 1.0F);
         GL11.glDisable(GL11.GL_LIGHTING);
         GL11.glTranslatef((float) guiWidth, (float) guiHeight, 0.0F);
-        fontRendererObj.drawString(ICraftClientUtils.getTime(), 75, 46, 0xffffff);
+        fontRendererObj.drawString(ICraftClientUtils.getTime(), 120, 46, 0xffffff);
         GL11.glEnable(GL11.GL_LIGHTING);
         GL11.glPopMatrix();
 
